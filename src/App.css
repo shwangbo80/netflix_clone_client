@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+}
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.mySwiper {
+  margin-top: 0px;
+}
+
+.swiperContainer {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.homeComponent {
+  background-color: black;
+  display: grid;
+  height: 100vh;
+}
+
+.loginForm {
+  width: 60%;
+}
+
+.titleBg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.redd.it/z9xed4f4guw71.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.swiper-button-next {
+  position: absolute;
+  margin-top: -40px;
+  color: white;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  margin-top: -40px;
+  color: white;
+}
+
+.modal-header {
+  color: white;
+  background-color: #202020;
+  border: 0px;
+}
+
+.modal-body {
+  color: white;
+  background-color: #121212;
+}
+.modal-footer {
+  color: white;
+  background-color: #121212;
+  border: 0px;
+}
+
+.close-button {
+  color: white;
+}
+
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.movieImg {
+  width: 500px;
+}
+
+.featuredContainer {
+  position: relative;
+}
+
+.topLeft {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+}
+
+.middleLeft {
+  position: absolute;
+  bottom: 25%;
+  left: 3%;
+}
+.bottomLeft {
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+}
+
+.navbar {
+  background-color: black;
+  margin-top: -25px;
+}
+
+.logoText {
+  font-size: 50px;
+  color: red;
+  font-weight: bolder;
+}
+
+.sooflixText {
+  font-size: 80px;
+  color: red;
+  font-weight: bolder;
+}
+.navText {
+  font-size: 20px;
+}
+
+.infoBtn {
+  background-color: red;
+}
+
+.infoBtn:hover {
+  background-color: white;
+  color: black;
+}
+
+.components {
+  padding-top: 1000px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.footerText {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+hr {
+  border: 1px solid white;
+}
