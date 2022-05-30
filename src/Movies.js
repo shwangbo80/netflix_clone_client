@@ -15,9 +15,10 @@ export default function Movies() {
     const [apiData, setApiData] = useState([]);
 
     //Development url
-    const url = "http://localhost:8000/movies/";
+    // const url = "http://localhost:8000/movies/";
 
     //Production url
+    const url = "http://localhost:8000/movies/";
 
     useEffect(() => {
         axios
