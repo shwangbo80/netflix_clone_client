@@ -18,7 +18,7 @@ export default function Movies() {
     // const url = "http://localhost:8000/movies/";
 
     //Production url
-    const url = "http://localhost:8000/movies/";
+    const url = "https://soo-netflix-server.herokuapp.com/movies/";
 
     useEffect(() => {
         axios
