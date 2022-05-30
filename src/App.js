@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Components/Home";
 import Movies from "./Components/Movies";
@@ -13,7 +13,7 @@ export default function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route exact path="/" element={<Home />} />
                 <Route path="/movies" element={<Movies />} />
             </Routes>
         </BrowserRouter>
