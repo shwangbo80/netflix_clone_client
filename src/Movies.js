@@ -2,7 +2,6 @@ import {React, useState, useEffect} from "react";
 import {Container} from "react-bootstrap";
 import axios from "axios";
 
-import FeaturedComponent from "./GenreComponents/FeaturedComponent";
 import MartialArtsComponent from "./GenreComponents/MartialArtsComponent";
 import AnimeComponent from "./GenreComponents/AnimeComponent";
 import DocumentaryComponent from "./GenreComponents/DocumentaryComponent";
@@ -15,9 +14,14 @@ import FooterComponent from "./GenreComponents/FooterComponent";
 export default function Movies() {
     const [apiData, setApiData] = useState([]);
 
+    //Development url
+    const url = "http://localhost:8000/movies/";
+
+    //Production url
+
     useEffect(() => {
         axios
-            .get("http://localhost:8000/movies/")
+            .get(url)
             .then((response) => setApiData(response.data))
             .catch((error) => {
                 setApiData({errorMessage: error.message});
