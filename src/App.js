@@ -11,11 +11,11 @@ import "./App.css";
 
 export default function App() {
     return (
-        <HashRouter>
+        <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/movies" element={<Movies />} />
             </Routes>
-        </HashRouter>
+        </BrowserRouter>
     );
 }
