@@ -1,8 +1,8 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./Home";
-import Movies from "./Movies";
+import Home from "./Components/Home";
+import Movies from "./Components/Movies";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,7 +14,7 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="movies" element={<Movies />} />
+                <Route path="/movies" element={<Movies />} />
             </Routes>
         </BrowserRouter>
     );
