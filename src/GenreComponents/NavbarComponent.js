@@ -6,11 +6,11 @@ export default function NavbarComponent() {
         <>
             <Navbar variant="dark" className="navbar">
                 <Container fluid>
-                    <Navbar.Brand href="/movies">
+                    <Navbar.Brand href="/">
                         <p className="logoText">SOOFLIX</p>
                     </Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#pricing" className="navText">
+                        <Nav.Link href="/about" className="navText">
                             About
                         </Nav.Link>
                         <Nav.Link href="/" className="navText">
