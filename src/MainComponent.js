@@ -8,7 +8,8 @@ export default function MainComponent() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path="/" element={<Movies />} />
+                <Route exact path="/" element={<Home />} />
+                <Route exact path="/movies" element={<Movies />} />
                 <Route exact path="/about" element={<About />} />
             </Routes>
         </BrowserRouter>
