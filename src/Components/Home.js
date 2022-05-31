@@ -39,7 +39,7 @@ export default function Home() {
                                 />
                             </Col>
                         </Form.Group>
-                        <Button variant="danger" type="submit" href="/movies">
+                        <Button variant="danger" type="submit" href="movies">
                             Submit
                         </Button>
                     </Form>
